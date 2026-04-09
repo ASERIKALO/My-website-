@@ -5,5 +5,22 @@
 </head>
 <body>
   <h1>Karibu Aserikalo 🔥</h1>
+
+
+<h2>Like Button Example 👍</h2>
+
+<button onclick="like()">👍 Like</button>
+
+<p id="count">Likes: 0</p>
+
+<script>
+let likes = 0;
+
+function like() {
+  likes = likes + 1;
+  document.getElementById("count").innerText = "Likes: " + likes;
+}
+</script>
+
 </body>
 </html>
